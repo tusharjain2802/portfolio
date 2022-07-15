@@ -91,4 +91,8 @@ $(document).ready(function(){
     sliders.forEach(slider => {
         appearOnScroll.observe(slider)
     });
+
+    var today = new Date();
+    var year = today.getFullYear();
+    $(".dynamic-date").text(year);
 });
