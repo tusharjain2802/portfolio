@@ -37,14 +37,14 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings: ["Full Stack Developer", "Designer", "C++ Coder"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 55,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
         strings: ["Full Stack Developer", "Designer", "C++ Coder"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 55,
         loop: true
     });
 
@@ -95,4 +95,34 @@ $(document).ready(function(){
     var today = new Date();
     var year = today.getFullYear();
     $(".dynamic-date").text(year);
+
+    document.getElementById('clickable-text').addEventListener('click', function() {
+    // Redirect to the desired link
+    window.open('https://mess-management-system.onrender.com/', '_blank');
+    });
+    
+    document.getElementById('project1').addEventListener('click', function() {
+    window.open('https://github.com/tusharjain2802/Mess-Management-System', '_blank');
+    });
+    document.getElementById('project2').addEventListener('click', function() {
+    window.open('https://github.com/tusharjain2802/Person-Counter', '_blank');
+  });
+  document.getElementById('project3').addEventListener('click', function() {
+    window.open('https://github.com/tusharjain2802/Python_Computer_Vision_Projects/blob/main/live%20sketch%20project.py', '_blank');
+  });
+
+  document.getElementById('clickable-text1').addEventListener('click', function() {
+    // Redirect to the desired link
+    window.open('https://elitmus-clueup-puzzle-application.onrender.com/', '_blank');
+    });
+    
+    document.getElementById('project4').addEventListener('click', function() {
+    window.open('https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application', '_blank');
+    });
+    document.getElementById('project5').addEventListener('click', function() {
+        window.open('https://github.com/tusharjain2802/Lava-Ballz-Game-Unity-2019.4.34f1', '_blank');
+        });
+    document.getElementById('project5').addEventListener('click', function() {
+        window.open('https://github.com/tusharjain2802/Pizza-Delivery-App', '_blank');
+    });
 });
