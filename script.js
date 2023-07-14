@@ -122,7 +122,16 @@ $(document).ready(function(){
     document.getElementById('project5').addEventListener('click', function() {
         window.open('https://github.com/tusharjain2802/Lava-Ballz-Game-Unity-2019.4.34f1', '_blank');
         });
-    document.getElementById('project5').addEventListener('click', function() {
+    document.getElementById('project6').addEventListener('click', function() {
         window.open('https://github.com/tusharjain2802/Pizza-Delivery-App', '_blank');
+    });
+    document.getElementById('exp1').addEventListener('click', function() {
+        window.open('https://drive.google.com/file/d/12YwkNpy1tHpX--xGywjffW7C4ZvucVly/view?usp=sharing', '_blank');
+    });
+    document.getElementById('exp2').addEventListener('click', function() {
+        window.open('https://drive.google.com/file/d/11KWMGXHTQ0-fo08A5Bh8KtBoMozQOMFv/view?usp=sharing', '_blank');
+    });
+    document.getElementById('exp3').addEventListener('click', function() {
+        window.open('https://drive.google.com/file/d/10OpA0u2qtUAC-htCnar12xOAUgkWvpsD/view?usp=sharing', '_blank');
     });
 });
