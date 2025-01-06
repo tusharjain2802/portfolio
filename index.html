@@ -1,273 +1,98 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-<style>
-    a{
-        text-decoration: none;
-    }
-</style>
-</head>
-<body>
-    <!-- The button for scrolling up to the home. Hidden initially -->
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-
-    <!-- The navbar-->
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Tushar's Portfolio.</a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Experience</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#project" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="./Portfolio_files/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body background="./Portfolio_files/BG.jpg">
+    <main class="app">
+      <nav class="navBar">
+        <h1>Tushar Jain's Portfolio</h1>
+        <div class="navigationMenu">
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </div></div></nav>
+      <section class="heroSection">
+        <img class="profileImage" src="./Portfolio_files/Profile_pic.png">
+        <div class="herosectionDetails">
+          <h1>Tushar Jain</h1>
+          <h3>Student at TIET, Patiala</h3>
+          <h3>Roll Number-102003391</h3>
         </div>
-    </nav>
+      </section>
+      <section class="aboutMe" id="aboutMe">
+        <h1>What I Do...</h1>
+        <p>My hunger to gain knowledge describes me best. I have learnt many programming languages on my own through online platforms, I had no programming experience when i entered into college. I learnt HTML $ CSS , Python (Numpy, Matplotlib, Pandas, cv2 along with the standard library), php but haven't got enough much time to master any of them. Further i am looking to focus on DSA.<br>
+         <section class="contactForm" ><h1>Experience</h1>
 
-    <!-- home section start -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Tushar Jain</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="https://www.linkedin.com/in/tushar-jain-94a6a2194/">Linkedin Profile</a>
-            </div>
+<a target="_blank" href="https://www.thesparksfoundationsingapore.org//"><h4>The Sparks Foundation</h4></a>
+Digital Marketing Intern             
+             
+<a target="_blank" href="http://www.istetiet.in/"><h4>ISTE Thapar Chapter</h4></a>
+Member of society as Graphic Designer
+
+<a target="_blank" href="https://sites.google.com/thapar.edu/ietstudentchaptertiet/events?authuser=0"><h4>IET Student Chapter, TIET</h4></a>
+Member of society as Graphic Designer
+
+<a target="_blank" href=" https://sankalphamara.com/"><h4>Sankalp Hamara NGO</h4></a>
+Social Media Marketing Intern
+
+<a target="_blank" href="https://www.instagram.com/the.davian.family/"><h4>TDF Productions</h4></a>
+Digital Marketing Intern
+          </section>
+        </p>
+      </section>
+      <section class="skillsAndProjects">
+        <div class="skills" id="skills">
+          <h1 class="cardHeading">Skills</h1>
+          <img title="HTML" src="./Portfolio_files/html.svg">
+          <img title="CSS" src="./Portfolio_files/css.svg">
+          <img title="Javascript" src="./Portfolio_files/javascript.svg">
+          <img title="Python" src="./Portfolio_files/python.svg">
+          <img title="C++" src="./Portfolio_files/c_plus.svg">
+          <img title="C Programming" src="./Portfolio_files/C_program.png">
         </div>
-    </section>
-
-    <!-- about section start -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="images/profile-1.png" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">I'm Tushar and I'm  <span class="typing-2"></span></div>
-                    <p>I'm pursuing Computer Science Engineering. I'm a quick and passionate learner. I am always passionate about understanding the core concepts behind different popular Technological Fields. I think no matter how hard the past is, you can always begin again... and I believe every day is a chance to begin again. I love whatever I do...and also I do whatever I love...</p>
-                    <a href="https://drive.google.com/file/d/1V9AOY5jbIy9Zofz6cqee-oybfs2QWRUU/view?usp=sharing" target="_blank">Download CV</a>
-                </div>
+        <div class="projects" id="projects">
+          <h1 class="cardHeading">Projects</h1>
+          <div class="projectContainer">
+            <img class= "img1" src="./Portfolio_files/we.png">
+            <div class="projectDescription">
+              <a target="_blank" href="https://tusharjain2802.github.io/woman_empowerment/index.html">
+              <h4>Web Page On women Empowerment</h4></a>
+              <p>It aims at helping women find a job, get motivation and produce awareness about their rights provided by the Indian Government.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- services section start -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">Experience</h2>
-            <div class="serv-content">
-                <div class="slide-in card from-left" id="exp1">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Oasis Infobyte - Internship</div>
-                        <p class="fade-in">1 month internship in Web Development and Designing. (24/7/2022)</p>
-                    </div>
-                </div>
-                <div class="card" id="exp2">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">LetsGrowMore - Internship</div>
-                        <p class="fade-in">Participant in the LetsGrowMore Virtual Internship Program in Data Science.(5/11/2021)</p>
-                    </div>
-                </div>
-                <div class="slide-in card from-right" id="exp3">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Sankalp Hamara NGO - Internship</div>
-
-                        <p class="fade-in">Worked as social media marketing intern, feeding stray dogs, planted trees. (1/1/2021)</p>
-                    </div>
-                </div>
-               </div>
+          </div>
+          <div class="projectContainer">
+            <img src="./Portfolio_files/python.svg">
+            <div class="projectDescription">
+              <a target="_blank" href="https://github.com/tusharjain2802/Python_Computer_Vision_Projects"><h4>Python Computer Vision Projects</h4></a>
+              <p>Check the github repository for the .py files that I made using cv2 library.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- project section start -->
-    <section class="services" id="project">
-        <div class="max-width">
-            <h2 class="title">My Projects</h2>
-            <div class="serv-content">    
-                <div class="slide-in card from-left margin-bt" id="project1">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Mess Management System (09/2022 - 11/2022)</div>
-                        <p class="fade-in " id="clickable-text">Live at : https://mess-management-system.onrender.com/</p>
-                    </div>
-                </div>
-                <div class="card margin-bt" id="project2">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Person Counter (07/2023)</div>
-                        <p class="fade-in">About
-                            Person Counter AI model which displays the overall and live person count.</p>
-                    </div>
-                </div>
-                <div class="slide-in card from-right margin-bt" id="project3">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Live Sketch Project using cv2 (08/2021)</div>
-                        <p class="fade-in">This AI model displays a live sketch video using webcam</p>
-                    </div>
-                </div>
-
-                <div class="slide-in card from-left" id="project4">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">eLitmus-Clueup-Puzzle-Application (04/2023)</div>
-                        <p class="fade-in " id="clickable-text1">Live at : https://elitmus-clueup-puzzle-application.onrender.com/</p>
-                    </div>
-                </div>
-                <div class="card" id="project5">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Lava Ballz (Unity Game) (02/2022)</div>
-                        <p class="fade-in">A VR Unity 3D game with effects.</p>
-                    </div>
-                </div>
-                <div class="slide-in card from-right" id="project6">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Pizza Delivery App</div>
-                        <p class="fade-in">a cutting-edge Pizza Delivery Application using React, MongoDB, and Node.js</p>
-                    </div>
-                </div>
-               </div>
+          </div>
+            <div class="projectContainer">
+            <img src="./Portfolio_files/Jupyter_logo.svg">
+            <div class="projectDescription">
+              <a target="_blank" href="https://github.com/tusharjain2802/Data-Science-Projects"><h4>Data Science Projects with Python</h4></a>
+              <p>Check the github repository for the jupyter notebook files that I made using numpy, pandas, matplotlib and plotly.express libraries.</p>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- skills section start -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My Skills</h2>
-            <div class="skills-content">
-                <div class="slide-in from-left column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>As we all know that under engineering, technical skills always provide unique gratitude and passion for any technical guy. So these technical skills of the engineer always help me, in the same way at all the time. Being a fresher and trainee I don't say that I don't have any experience at all, I am working in technical courses since my B.tech starts and gain so much experience in the field of Data Science, Team leadership, Management , C ,C++ , Python , and many more... I'm a quick and passionate learner.</p>
-                    <a href="https://www.linkedin.com/in/tushar-jain-94a6a2194/" >Read more</a>
-                </div>
-               
-                <div class="slide-in from-right column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>Web Deveopment (MERN)</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line ps"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C/C++</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line C"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Python</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line py"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Data Structure</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line ds"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Machine Learning</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line f"></div>
-                    </div>                    
-                </div>
-            </div>
+      </section>
+      <section class="contactForm" id="contactForm">
+        <h1>Let's Connect!</h1>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjfloFNECbR_Q1gMs5gp-yHI8umMjTiNnosji2ax-Fi1W73Q/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </section>
+      <section class="contactForm" id="contactForm">
+        <div style="float: left;"><a href="https://www.linkedin.com/in/tushar-jain-94a6a2194/" target="_blank"><img title="LinkedIn" src="./Portfolio_files/linkedin.svg" width="50" height="50" ></a></div>
+          <div style="padding-left: 20px; float: left;"><a href="https://www.facebook.com/profile.php?id=100005964120486" target="_blank"><img title="Facebook" src="./Portfolio_files/facebook.svg" width="50" height="50" ></a></div>
+          <div style="padding-left: 20px; float: left;"><a href="http://github.com/tusharjain2802" target="_blank"><img title="Github" src="./Portfolio_files/github.svg" width="50" height="50" ></a></div>
+          <div style="padding-left: 20px; float: left;"><a href="https://www.instagram.com/tushar.jain02/" target="_blank"><img title="Instagram" src="./Portfolio_files/Instagram.svg" width="50" height="50"></a>
         </div>
-    </section>
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact Me</h2>
-            <div class="contact-content">
-                <div class="slide-in from-left column left">
-                    <div class="text">Get in Touch</div>
-                    <p>I love to connecting with different people from around the world, feel free to reach out. 😊 💜</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Tushar Jain</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Ludhiana, India</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">tjain2_be20@thapar.edu</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide-in from-right column right">
-                    <div class="text">Whatsapp me</div>
-                    <form action="#">
-                        <div class="button">
-                        
-                    <button type="submit"><a href="https://wa.me/+919592925693" target="_blank" >Send message</a></button>
-                    </div>
-                </form>
-                   <form action="#">
-                    <div class="text">Connect me on Linkedin</div>
-                    
-                    <div class="button">
-                        
-                         <button type="submit"><a href="https://www.linkedin.com/in/tushar-jain-94a6a2194/" >Connect</button>
-                    </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
- 
-
-    <!-- footer section start -->
-    <footer>
-        <span>Created By <a  href="https://www.linkedin.com/in/tushar-jain-94a6a2194/">Tushar Jain</a> with💖| <span class="far fa-copyright"></span><div class="dynamic-date"></div> All rights reserved.</span>
-    </footer>
-
-    <script src="script.js"></script>
+      </section>
+    </main>
 </body>
 </html>
